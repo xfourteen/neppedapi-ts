@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "strictNullChecks": true,
+        "target": "ES5",
+        "outDir": "dist",
+        "module": "commonjs",
+        "rootDir": "src"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

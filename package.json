@@ -1,0 +1,17 @@
+{
+  "name": "neppedapi_ts",
+  "version": "1.0.0",
+  "description": "NeppedCord API wrapper, but in TypeScript.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "xfourteen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.10"
+  }
+}
