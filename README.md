@@ -12,7 +12,7 @@ let client: APIClient = new APIClient("token");
 (async function(){
     try {
         let response = await client.getImage("hug");
-        // ^ доступны типы "baka", "cry", "cuddle", "happy", "hug", "kiss", "sad", "wag".
+        // ^ доступны типы "baka", "cry", "cuddle", "happy", "hug", "kiss", "sad", "wag", "pat", "poke", "dance", "smug".
         console.log(response.url); // response: IImageResponse = {url: string}.
     }catch(e){
         console.log(e);
