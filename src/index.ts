@@ -4,7 +4,7 @@ import { request } from "./request";
 export class APIClient {
     token: string;
     hostname: string = "neppedcord.top";
-    imageTypes: string[] = ["baka", "cry", "cuddle", "happy", "hug", "kiss", "sad", "wag"];
+    imageTypes: string[] = ["baka", "cry", "cuddle", "happy", "hug", "kiss", "sad", "wag", "pat", "poke", "dance", "smug"];
     constructor(token: string | null){
         if(token == null){
             throw new ReferenceError("[neppedapi-ts] Токен авторизации не указан.");
